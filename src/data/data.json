@@ -107,6 +107,21 @@
         "Developed the frontend of a Finance Management System using Java and the Android SDK, collaborating with a fellow intern to deliver a production-ready mobile interface.",
         "Improved library modularity through systematic code refactoring and implemented comprehensive unit and API testing frameworks, increasing code reliability and maintainability."
       ]
+    },
+    {
+      "company": "OCTFIS Techno LLP",
+      "role": "Web Developer",
+      "location": "Surat, India",
+      "period": "Jun 2019 – Jun 2020",
+      "type": "part-time",
+      "description": "Part-time full-stack web development role building and maintaining client-facing web applications while completing undergraduate studies.",
+      "achievements": [
+        "Engineered and maintained web applications using C#, HTML5, CSS3, and SQL, ensuring high availability and seamless user experiences across client projects.",
+        "Collaborated with senior engineers to refactor and optimize complex SQL queries, achieving a 20% improvement in database performance and reducing latency for end-users.",
+        "Gathered and analyzed client feedback to architect and implement high-impact features, driving measurable increases in user productivity and client retention.",
+        "Provided critical support for live production environments by identifying, debugging, and resolving front-end and back-end issues to maintain site stability.",
+        "Translated business requirements into technical specifications, delivering customized solutions that enhanced the overall customer journey and digital experience."
+      ]
     }
   ],
 
