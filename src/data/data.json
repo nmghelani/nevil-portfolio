@@ -1,0 +1,247 @@
+{
+  "meta": {
+    "name": "Nevil Ghelani",
+    "title": "Software Engineer & Agentic AI Specialist",
+    "location": "Hackensack, NJ",
+    "summary": "Full-Stack Software Engineer with expertise in building scalable enterprise applications and AI-powered developer tools. Currently an Application Developer at ADP, leading feature development and a team of 3 on Workforce Now — ADP's largest mid-market payroll platform. Passionate about applying Generative AI to solve complex engineering problems. Holds a Master's degree in Computer Science from Stevens Institute of Technology and is currently pursuing a Certificate in Agentic AI at Johns Hopkins University.",
+    "links": {
+      "linkedin": "https://www.linkedin.com/in/nevil-ghelani/",
+      "github": "https://github.com/nmghelani",
+      "email": "nevilghelani99@gmail.com"
+    }
+  },
+
+  "proposedEndeavor": {
+    "headline": "Building Enterprise-Grade AI to Accelerate Software Engineering at Scale",
+    "subtitle": "Leveraging Agentic AI and Full-Stack Engineering to Solve Complex Infrastructure Challenges at One of the World's Largest HCM Platforms",
+    "paragraphs": [
+      "Large-scale enterprise software — especially systems handling payroll, HR, and workforce management for millions of users — creates an enormous surface area of complexity. Debugging production issues across hundreds of repositories, database schemas, and distributed log systems remains one of the most time-consuming bottlenecks in software organizations. I believe intelligent AI-powered tooling can fundamentally transform how engineering teams diagnose and resolve these issues.",
+      "At ADP, I work as an Application Developer on Workforce Now (WFN), the company's largest payroll product for mid-sized businesses. I lead feature development and a squad of 3 developers while also building AI-powered developer tools. I've architected a GenAI debugging agent that integrates with 50+ repositories and enterprise databases, cutting complex issue resolution from full-day investigations to under 60 minutes.",
+      "I'm currently pursuing a Certificate in Agentic AI from Johns Hopkins University to deepen my expertise in autonomous agent design, multi-agent orchestration, and hallucination prevention. My goal is to apply these capabilities to further improve developer productivity, reduce support tickets and defects, and build reliable AI-powered tools that engineering organizations can adopt at scale."
+    ],
+    "impactPoints": [
+      {
+        "icon": "Building2",
+        "title": "Enterprise-Scale Impact",
+        "description": "Working on ADP's Workforce Now — the company's largest mid-market payroll product — building and maintaining full-stack features and AI-powered developer tools that improve engineering velocity across the platform."
+      },
+      {
+        "icon": "ShieldCheck",
+        "title": "AI Safety & Reliability",
+        "description": "Focused on building AI agents that are accurate, reliable, and free from hallucination — ensuring that AI-powered developer tools produce trustworthy outputs in enterprise environments."
+      },
+      {
+        "icon": "Zap",
+        "title": "Measurable Efficiency Gains",
+        "description": "Achieved an 8x reduction in production debugging time through a custom AI agent — cutting complex issue resolution from full-day investigations to under 60 minutes, directly reducing support tickets and defects."
+      },
+      {
+        "icon": "GraduationCap",
+        "title": "Continuous Learning & Specialization",
+        "description": "Master's degree in Computer Science (Stevens Institute of Technology) combined with an active Certificate in Agentic AI at Johns Hopkins University — continuously investing in cutting-edge AI expertise."
+      }
+    ]
+  },
+
+  "experience": [
+    {
+      "company": "ADP Inc.",
+      "role": "Application Developer",
+      "location": "Parsippany, NJ",
+      "period": "Oct 2023 – Present",
+      "type": "full-time",
+      "description": "Application Developer on ADP's Workforce Now (WFN) — the company's largest payroll platform for mid-sized businesses. Responsible for full-stack feature development, AI-powered developer tooling, and leading a squad of 3 developers across new feature initiatives.",
+      "achievements": [
+        "Architected and deployed a proprietary GenAI Debugger Agent powered by a fine-tuned LLM with deep integration across 50+ production repositories and enterprise database schemas, enabling automated root-cause analysis at scale.",
+        "Engineered the AI agent to autonomously generate targeted Splunk queries, analyze distributed log outputs, and identify root causes of complex production issues, achieving an 8x reduction in debugging time (from full-day investigations to under 60 minutes).",
+        "Lead a squad of 3 developers, conducting code reviews, resolving critical technical blockers, and defining the core framework architecture for new features on the WFN platform.",
+        "Design and implement scalable backend services using Java Spring Boot and Oracle Database, contributing to the reliability and performance of ADP's Workforce Now platform.",
+        "Serve as the primary technical representative in senior management strategy sessions, translating complex infrastructure architecture into actionable strategic roadmaps for executive leadership."
+      ]
+    },
+    {
+      "company": "ADP Inc.",
+      "role": "Associate Application Developer",
+      "location": "Parsippany, NJ",
+      "period": "Feb 2023 – Sep 2023",
+      "type": "full-time",
+      "description": "Full-stack developer responsible for modernizing enterprise employee management systems, collaborating with cross-functional architecture teams to deliver scalable digital solutions.",
+      "achievements": [
+        "Engineered a comprehensive digital onboarding system that modernized employee lifecycle management, utilizing React.js for the user interface and Java Spring Boot for backend services — replacing legacy manual processes that previously required multi-day turnaround.",
+        "Collaborated with senior database architects to design and implement normalized Oracle database schemas, optimizing data retrieval performance for high-volume transactional workloads supporting thousands of concurrent enterprise users."
+      ]
+    },
+    {
+      "company": "ADP Inc.",
+      "role": "Application Development Intern",
+      "location": "Roseland, NJ",
+      "period": "Jun 2022 – Aug 2022",
+      "type": "internship",
+      "description": "Selected for a competitive internship program at ADP's corporate headquarters, contributing to enterprise tooling and platform modernization initiatives.",
+      "achievements": [
+        "Developed automated Python data pipeline scripts that replaced a 3-day manual data fetching and insertion process with a solution completing the same operations in minutes — demonstrating immediate ROI and engineering impact.",
+        "Led the migration of a legacy Product Catalog system from manual spreadsheets to a modern web application built with React, Node.js, and GraphQL, implementing role-based access controls to enhance data security and operational efficiency."
+      ]
+    },
+    {
+      "company": "Dcoder Inc.",
+      "role": "Android Developer Intern",
+      "location": "Bangalore, India",
+      "period": "Dec 2020 – May 2021",
+      "type": "internship",
+      "description": "Mobile development role at a fast-growing coding platform startup, driving user engagement through feature development and performance optimization.",
+      "achievements": [
+        "Increased Daily Active Users (DAU) by 10% through the design and launch of new UI/UX features and systematic application performance optimization.",
+        "Implemented production monitoring via Firebase Crashlytics analysis, identifying and resolving critical crashes through targeted Java code refactoring.",
+        "Published a custom open-source Android Library enabling 3D touch capabilities and gesture-controlled actions — adopted within the production application."
+      ]
+    },
+    {
+      "company": "AnnexTech Software",
+      "role": "Android Developer Intern",
+      "location": "Surat, India",
+      "period": "Jul 2020 – Dec 2020",
+      "type": "internship",
+      "description": "Early-career mobile development role contributing to enterprise financial management software.",
+      "achievements": [
+        "Developed the frontend of a Finance Management System using Java and the Android SDK, collaborating with a fellow intern to deliver a production-ready mobile interface.",
+        "Improved library modularity through systematic code refactoring and implemented comprehensive unit and API testing frameworks, increasing code reliability and maintainability."
+      ]
+    }
+  ],
+
+  "skills": {
+    "technicalCore": [
+      {
+        "category": "Programming Languages",
+        "items": [
+          "Java",
+          "Python",
+          "TypeScript",
+          "JavaScript",
+          "SQL",
+          "C++",
+          "C#",
+          "HTML/CSS"
+        ]
+      },
+      {
+        "category": "Frontend Engineering",
+        "items": [
+          "React.js",
+          "Next.js",
+          "Android SDK",
+          "Responsive UI/UX",
+          "Component Architecture"
+        ]
+      },
+      {
+        "category": "Backend & Cloud",
+        "items": [
+          "Node.js",
+          "Spring Boot",
+          "GraphQL",
+          "AWS",
+          "Docker",
+          "RESTful APIs",
+          "Microservices"
+        ]
+      },
+      {
+        "category": "Databases",
+        "items": [
+          "Oracle",
+          "PostgreSQL",
+          "MongoDB",
+          "Database Schema Design",
+          "Query Optimization"
+        ]
+      },
+      {
+        "category": "DevOps & Tools",
+        "items": [
+          "Git",
+          "GitHub",
+          "Bitbucket",
+          "CI/CD Pipelines",
+          "Agile/Scrum",
+          "System Design"
+        ]
+      }
+    ],
+    "advancedSpecializations": [
+      {
+        "name": "Agentic AI Development",
+        "credential": "Johns Hopkins University — Certificate in Agentic AI (In Progress, Feb 2026)",
+        "description": "Specialized training in building autonomous AI agents with enterprise-grade reliability, including multi-agent orchestration, tool-use frameworks, and hallucination prevention for regulated industries."
+      },
+      {
+        "name": "Large Language Model Engineering",
+        "credential": "Production deployment at ADP (Fortune 250)",
+        "description": "Hands-on expertise in fine-tuning and deploying LLMs for domain-specific enterprise applications, including RAG architectures, prompt engineering, and context-window optimization across 50+ codebases."
+      },
+      {
+        "name": "Enterprise AI Infrastructure",
+        "credential": "Deployed at scale — ADP (Fortune 250)",
+        "description": "Design and deployment of AI-powered debugging and automation systems integrated with Splunk, distributed logging, and production monitoring across large-scale enterprise HCM infrastructure."
+      }
+    ]
+  },
+
+  "evidence": [
+    {
+      "type": "degree",
+      "title": "Master of Science in Computer Science",
+      "issuer": "Stevens Institute of Technology",
+      "location": "Hoboken, NJ",
+      "date": "December 2022",
+      "gpa": "3.6",
+      "description": "Advanced graduate study in computer science at a top-tier STEM institution, providing the theoretical foundation for current work in artificial intelligence, distributed systems, and software architecture."
+    },
+    {
+      "type": "degree",
+      "title": "Bachelor of Engineering in Computer Engineering",
+      "issuer": "Gujarat Technological University",
+      "location": "Gujarat, India",
+      "date": "July 2021",
+      "gpa": "3.8",
+      "description": "Undergraduate engineering degree with distinction, establishing core competencies in computer science fundamentals, algorithms, and systems engineering."
+    },
+    {
+      "type": "certification",
+      "title": "Certificate in Agentic AI",
+      "issuer": "Johns Hopkins University",
+      "location": "Remote",
+      "date": "In Progress (Started February 2026)",
+      "description": "Advanced professional certificate program focused on the design, development, and deployment of autonomous AI agents — covering multi-agent systems, tool-use frameworks, safety alignment, and enterprise deployment patterns."
+    },
+    {
+      "type": "patent",
+      "title": "AN AUTONOMOUS ROBOT",
+      "issuer": "Government of India — Patent Office",
+      "patentNumber": "578389",
+      "applicationNumber": "202221019895",
+      "date": "January 16, 2026",
+      "description": "Granted patent for an autonomous robotic system demonstrating original research and innovation in autonomous systems design. Published as an official press note by the patentee, reflecting recognized intellectual contribution to the field of autonomous technology."
+    },
+    {
+      "type": "project_outcome",
+      "title": "GenAI Debugger Agent — 8x Efficiency Gain",
+      "issuer": "ADP Inc.",
+      "date": "2024 – Present",
+      "description": "Architected and deployed an AI debugging agent at ADP, reducing complex production issue resolution from full-day investigations to under 60 minutes. This system integrates with 50+ repositories, enterprise databases, and Splunk log infrastructure — directly reducing support tickets and accelerating developer productivity."
+    },
+    {
+      "type": "project_outcome",
+      "title": "Enterprise Digital Onboarding Modernization",
+      "issuer": "ADP Inc.",
+      "date": "2023",
+      "description": "Engineered the replacement of legacy manual employee onboarding processes with a modern digital platform serving ADP's enterprise clients, improving operational efficiency for employers across the platform."
+    }
+  ],
+
+  "footer": {
+    "tagline": "Building the future of enterprise AI — one reliable agent at a time.",
+    "copyright": "Nevil Ghelani"
+  }
+}
