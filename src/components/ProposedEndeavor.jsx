@@ -1,4 +1,10 @@
-import { Building2, ShieldCheck, Zap, GraduationCap, Sparkles } from 'lucide-react';
+import {
+  Building2,
+  ShieldCheck,
+  Zap,
+  GraduationCap,
+  Sparkles,
+} from "lucide-react";
 
 const iconMap = {
   Building2,
@@ -24,9 +30,7 @@ export default function ProposedEndeavor({ data }) {
           <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
             {headline}
           </h2>
-          <p className="text-lg text-slate-500 max-w-3xl mx-auto">
-            {subtitle}
-          </p>
+          <p className="text-lg text-slate-500 max-w-3xl mx-auto">{subtitle}</p>
         </div>
 
         {/* Narrative */}

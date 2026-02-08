@@ -1,4 +1,4 @@
-import { Briefcase, MapPin, Calendar, ChevronRight } from 'lucide-react';
+import { Briefcase, MapPin, Calendar, ChevronRight } from "lucide-react";
 
 export default function Experience({ data }) {
   return (

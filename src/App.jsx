@@ -1,11 +1,11 @@
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import ProposedEndeavor from './components/ProposedEndeavor';
-import Experience from './components/Experience';
-import Skills from './components/Skills';
-import Evidence from './components/Evidence';
-import Footer from './components/Footer';
-import siteData from './data/data.json';
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import ProposedEndeavor from "./components/ProposedEndeavor";
+import Experience from "./components/Experience";
+import Skills from "./components/Skills";
+import Evidence from "./components/Evidence";
+import Footer from "./components/Footer";
+import siteData from "./data/data.json";
 
 export default function App() {
   return (

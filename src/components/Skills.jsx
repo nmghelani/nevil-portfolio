@@ -1,4 +1,4 @@
-import { Code2, Brain } from 'lucide-react';
+import { Code2, Brain } from "lucide-react";
 
 export default function Skills({ data }) {
   const { technicalCore, advancedSpecializations } = data;

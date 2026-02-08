@@ -1,12 +1,12 @@
-import { useState, useEffect } from 'react';
-import { Menu, X } from 'lucide-react';
+import { useState, useEffect } from "react";
+import { Menu, X } from "lucide-react";
 
 const navLinks = [
-  { label: 'About', href: '#hero' },
-  { label: 'Vision', href: '#endeavor' },
-  { label: 'Experience', href: '#experience' },
-  { label: 'Skills', href: '#skills' },
-  { label: 'Evidence', href: '#evidence' },
+  { label: "About", href: "#hero" },
+  { label: "Vision", href: "#endeavor" },
+  { label: "Experience", href: "#experience" },
+  { label: "Skills", href: "#skills" },
+  { label: "Evidence", href: "#evidence" },
 ];
 
 export default function Navbar() {
@@ -15,31 +15,31 @@ export default function Navbar() {
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 20);
-    window.addEventListener('scroll', onScroll);
-    return () => window.removeEventListener('scroll', onScroll);
+    window.addEventListener("scroll", onScroll);
+    return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
   const handleClick = (e, href) => {
     e.preventDefault();
     setMobileOpen(false);
-    document.querySelector(href)?.scrollIntoView({ behavior: 'smooth' });
+    document.querySelector(href)?.scrollIntoView({ behavior: "smooth" });
   };
 
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled
-          ? 'bg-white/80 backdrop-blur-lg shadow-sm border-b border-slate-200/60'
-          : 'bg-transparent'
+          ? "bg-white/80 backdrop-blur-lg shadow-sm border-b border-slate-200/60"
+          : "bg-transparent"
       }`}
     >
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
         {/* Logo */}
         <a
           href="#hero"
-          onClick={(e) => handleClick(e, '#hero')}
+          onClick={(e) => handleClick(e, "#hero")}
           className={`text-lg font-bold tracking-tight transition-colors duration-300 ${
-            scrolled ? 'text-slate-900' : 'text-white'
+            scrolled ? "text-slate-900" : "text-white"
           }`}
         >
           N<span className="text-blue-500">G</span>
@@ -54,8 +54,8 @@ export default function Navbar() {
               onClick={(e) => handleClick(e, link.href)}
               className={`text-sm font-medium transition-colors ${
                 scrolled
-                  ? 'text-slate-600 hover:text-blue-600'
-                  : 'text-slate-300 hover:text-white'
+                  ? "text-slate-600 hover:text-blue-600"
+                  : "text-slate-300 hover:text-white"
               }`}
             >
               {link.label}

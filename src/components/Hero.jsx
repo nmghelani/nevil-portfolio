@@ -1,4 +1,4 @@
-import { Linkedin, Github, Mail, MapPin, ArrowDown } from 'lucide-react';
+import { Linkedin, Github, Mail, MapPin, ArrowDown } from "lucide-react";
 
 export default function Hero({ data }) {
   const { name, title, summary, location, links } = data;
@@ -14,8 +14,8 @@ export default function Hero({ data }) {
           className="absolute inset-0"
           style={{
             backgroundImage:
-              'radial-gradient(circle at 1px 1px, white 1px, transparent 0)',
-            backgroundSize: '40px 40px',
+              "radial-gradient(circle at 1px 1px, white 1px, transparent 0)",
+            backgroundSize: "40px 40px",
           }}
         />
       </div>
@@ -96,7 +96,9 @@ export default function Hero({ data }) {
       {/* Scroll Indicator */}
       <button
         onClick={() =>
-          document.querySelector('#endeavor')?.scrollIntoView({ behavior: 'smooth' })
+          document
+            .querySelector("#endeavor")
+            ?.scrollIntoView({ behavior: "smooth" })
         }
         className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce cursor-pointer p-2 rounded-full hover:bg-white/10 transition-colors"
         aria-label="Scroll to next section"

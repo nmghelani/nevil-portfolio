@@ -4,59 +4,59 @@ import {
   FileCheck,
   Lightbulb,
   ExternalLink,
-} from 'lucide-react';
+} from "lucide-react";
 
 const typeConfig = {
   degree: {
     icon: GraduationCap,
-    color: 'blue',
-    label: 'Academic Degree',
+    color: "blue",
+    label: "Academic Degree",
   },
   certification: {
     icon: Award,
-    color: 'emerald',
-    label: 'Certification',
+    color: "emerald",
+    label: "Certification",
   },
   patent: {
     icon: FileCheck,
-    color: 'amber',
-    label: 'Granted Patent',
+    color: "amber",
+    label: "Granted Patent",
   },
   project_outcome: {
     icon: Lightbulb,
-    color: 'violet',
-    label: 'Project Outcome',
+    color: "violet",
+    label: "Project Outcome",
   },
 };
 
 const colorClasses = {
   blue: {
-    bg: 'bg-blue-50',
-    border: 'border-blue-100',
-    iconBg: 'bg-blue-100',
-    iconText: 'text-blue-600',
-    badge: 'bg-blue-50 text-blue-700 border-blue-200',
+    bg: "bg-blue-50",
+    border: "border-blue-100",
+    iconBg: "bg-blue-100",
+    iconText: "text-blue-600",
+    badge: "bg-blue-50 text-blue-700 border-blue-200",
   },
   emerald: {
-    bg: 'bg-emerald-50',
-    border: 'border-emerald-100',
-    iconBg: 'bg-emerald-100',
-    iconText: 'text-emerald-600',
-    badge: 'bg-emerald-50 text-emerald-700 border-emerald-200',
+    bg: "bg-emerald-50",
+    border: "border-emerald-100",
+    iconBg: "bg-emerald-100",
+    iconText: "text-emerald-600",
+    badge: "bg-emerald-50 text-emerald-700 border-emerald-200",
   },
   amber: {
-    bg: 'bg-amber-50',
-    border: 'border-amber-100',
-    iconBg: 'bg-amber-100',
-    iconText: 'text-amber-600',
-    badge: 'bg-amber-50 text-amber-700 border-amber-200',
+    bg: "bg-amber-50",
+    border: "border-amber-100",
+    iconBg: "bg-amber-100",
+    iconText: "text-amber-600",
+    badge: "bg-amber-50 text-amber-700 border-amber-200",
   },
   violet: {
-    bg: 'bg-violet-50',
-    border: 'border-violet-100',
-    iconBg: 'bg-violet-100',
-    iconText: 'text-violet-600',
-    badge: 'bg-violet-50 text-violet-700 border-violet-200',
+    bg: "bg-violet-50",
+    border: "border-violet-100",
+    iconBg: "bg-violet-100",
+    iconText: "text-violet-600",
+    badge: "bg-violet-50 text-violet-700 border-violet-200",
   },
 };
 
@@ -126,11 +126,11 @@ export default function Evidence({ data }) {
                 )}
                 {item.patentNumber && (
                   <p className="text-xs text-slate-500 mb-3">
-                    Patent No.{' '}
+                    Patent No.{" "}
                     <span className="font-mono font-semibold">
                       {item.patentNumber}
-                    </span>{' '}
-                    · App No.{' '}
+                    </span>{" "}
+                    · App No.{" "}
                     <span className="font-mono">{item.applicationNumber}</span>
                   </p>
                 )}
