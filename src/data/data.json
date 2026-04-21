@@ -1,9 +1,9 @@
 {
   "meta": {
     "name": "Nevil Ghelani",
-    "title": "Software Engineer & Agentic AI Specialist",
+    "title": "AI Architect & Software Research Engineer",
     "location": "Hackensack, NJ",
-    "summary": "Full-Stack Software Engineer with expertise in building scalable enterprise applications and AI-powered developer tools. Currently an Application Developer at ADP, leading feature development and a team of 3 on Workforce Now — ADP's largest mid-market payroll platform. Passionate about applying Generative AI to solve complex engineering problems. Holds a Master's degree in Computer Science from Stevens Institute of Technology and is currently pursuing a Certificate in Agentic AI at Johns Hopkins University.",
+    "summary": "Autonomous Systems Architect with a proven track record of industrial innovation and technical leadership in high-stakes Generative AI implementations. Core expertise lies in architecting scalable, resilient software solutions for critical enterprise infrastructure — currently advancing Agentic AI for U.S. infrastructure resilience through robust, hallucination-free agent design. Holder of a utility patent in autonomous robotics and a Master's in Computer Science from Stevens Institute of Technology, with an active Certificate in Agentic AI at Johns Hopkins University.",
     "links": {
       "linkedin": "https://www.linkedin.com/in/nevil-ghelani/",
       "github": "https://github.com/nmghelani",
@@ -12,33 +12,33 @@
   },
 
   "proposedEndeavor": {
-    "headline": "Building Enterprise-Grade AI to Accelerate Software Engineering at Scale",
-    "subtitle": "Leveraging Agentic AI and Full-Stack Engineering to Solve Complex Infrastructure Challenges at One of the World's Largest HCM Platforms",
+    "headline": "Advancing Agentic AI for U.S. Infrastructure Resilience",
+    "subtitle": "Architecting hallucination-free, enterprise-grade autonomous systems that translate complex R&D into high-impact industrial assets.",
     "paragraphs": [
-      "Large-scale enterprise software — especially systems handling payroll, HR, and workforce management for millions of users — creates an enormous surface area of complexity. Debugging production issues across hundreds of repositories, database schemas, and distributed log systems remains one of the most time-consuming bottlenecks in software organizations. I believe intelligent AI-powered tooling can fundamentally transform how engineering teams diagnose and resolve these issues.",
-      "At ADP, I work as an Application Developer on Workforce Now (WFN), the company's largest payroll product for mid-sized businesses. I lead feature development and a squad of 3 developers while also building AI-powered developer tools. I've architected a GenAI debugging agent that integrates with 50+ repositories and enterprise databases, cutting complex issue resolution from full-day investigations to under 60 minutes.",
-      "I'm currently pursuing a Certificate in Agentic AI from Johns Hopkins University to deepen my expertise in autonomous agent design, multi-agent orchestration, and hallucination prevention. My goal is to apply these capabilities to further improve developer productivity, reduce support tickets and defects, and build reliable AI-powered tools that engineering organizations can adopt at scale."
+      "Large-scale enterprise software — particularly systems supporting payroll, HR, and critical workforce infrastructure for millions of users — creates an enormous surface area of operational complexity. Diagnosing production issues across hundreds of repositories, database schemas, and distributed log systems remains one of the most time-consuming bottlenecks in modern engineering organizations. I believe Agentic AI, deployed with strict guardrails and verifiable retrieval, can fundamentally transform how engineering teams resolve these issues at scale.",
+      "At ADP, I work as an Application Developer, where I conceived and led the architecture of an autonomous Generative AI debugging agent as an independent, proactive engineering initiative — successfully securing executive-level (VP) sponsorship for broader product integration. The agent integrates a Model Context Protocol (MCP) server with AST-based code navigation and secure database execution tools across 50+ enterprise repositories, paired with a static vector-embedded RAG knowledge base and strict prompt guardrails to eliminate hallucination — cutting Mean Time to Resolution (MTTR) for complex issues by 8x.",
+      "I am pursuing a Certificate in Agentic AI from Johns Hopkins University to deepen my expertise in autonomous agent design, multi-agent orchestration, and safety alignment. My broader research agenda — spanning voice-native dispatch agents, hierarchical multi-agent orchestration (JARVIS), and a granted utility patent in vision-based autonomous robotics — is dedicated to building reliable, deterministic AI systems that engineering organizations and critical infrastructure operators can adopt with confidence."
     ],
     "impactPoints": [
       {
         "icon": "Building2",
         "title": "Enterprise-Scale Impact",
-        "description": "Working on ADP's Workforce Now — the company's largest mid-market payroll product — building and maintaining full-stack features and AI-powered developer tools that improve engineering velocity across the platform."
+        "description": "Architecting AI-powered developer tooling and scalable Java Spring Boot backend services at ADP, integrated across 50+ enterprise repositories and database schemas."
       },
       {
         "icon": "ShieldCheck",
         "title": "AI Safety & Reliability",
-        "description": "Focused on building AI agents that are accurate, reliable, and free from hallucination — ensuring that AI-powered developer tools produce trustworthy outputs in enterprise environments."
+        "description": "Designing AI agents with strict prompt-engineering guardrails, RAG retrieval, and deterministic orchestration protocols to eliminate hallucination in regulated, high-stakes environments."
       },
       {
         "icon": "Zap",
         "title": "Measurable Efficiency Gains",
-        "description": "Achieved an 8x reduction in production debugging time through a custom AI agent — cutting complex issue resolution from full-day investigations to under 60 minutes, directly reducing support tickets and defects."
+        "description": "Achieved an 8x reduction in production debugging time (cutting 1-day issues to under 60 minutes) through an autonomous GenAI Debugger Agent built on MCP, RAG, and Splunk integration."
       },
       {
         "icon": "GraduationCap",
-        "title": "Continuous Learning & Specialization",
-        "description": "Master's degree in Computer Science (Stevens Institute of Technology) combined with an active Certificate in Agentic AI at Johns Hopkins University — continuously investing in cutting-edge AI expertise."
+        "title": "Research-Backed Expertise",
+        "description": "Master's in Computer Science (Stevens Institute of Technology), Certificate in Agentic AI (Johns Hopkins, expected May 2026), and a granted utility patent in autonomous robotics (Patent No. 578389)."
       }
     ]
   },
@@ -48,27 +48,27 @@
       "company": "ADP Inc.",
       "role": "Application Developer",
       "location": "Parsippany, NJ",
-      "period": "Oct 2023 – Present",
+      "period": "Oct 2025 – Present",
       "type": "full-time",
-      "description": "Application Developer on ADP's Workforce Now (WFN) — the company's largest payroll platform for mid-sized businesses. Responsible for full-stack feature development, AI-powered developer tooling, and leading a squad of 3 developers across new feature initiatives.",
+      "description": "Application Developer responsible for full-stack feature delivery, autonomous AI tooling, and technical leadership of a 3-developer squad on enterprise HCM platforms.",
       "achievements": [
-        "Architected and deployed a proprietary GenAI Debugger Agent powered by a fine-tuned LLM with deep integration across 50+ production repositories and enterprise database schemas, enabling automated root-cause analysis at scale.",
-        "Engineered the AI agent to autonomously generate targeted Splunk queries, analyze distributed log outputs, and identify root causes of complex production issues, achieving an 8x reduction in debugging time (from full-day investigations to under 60 minutes).",
-        "Lead a squad of 3 developers, conducting code reviews, resolving critical technical blockers, and defining the core framework architecture for new features on the WFN platform.",
-        "Design and implement scalable backend services using Java Spring Boot and Oracle Database, contributing to the reliability and performance of ADP's Workforce Now platform.",
-        "Serve as the primary technical representative in senior management strategy sessions, translating complex infrastructure architecture into actionable strategic roadmaps for executive leadership."
+        "Conceived and led the architecture of an autonomous Generative AI debugging agent as an independent, proactive engineering initiative; successfully secured executive-level (VP) sponsorship for broader product integration.",
+        "Implemented a Model Context Protocol (MCP) server, integrating AST code navigation and secure database execution tools across 50+ enterprise repositories.",
+        "Deployed a static vector-embedded knowledge base (RAG pipeline) with strict prompt guardrails, reducing Mean Time to Resolution (MTTR) by 8x — cutting complex 1-day issues to under 60 minutes.",
+        "Engineered the agent to generate targeted Splunk queries and analyze distributed log outputs, enabling automated root-cause analysis at scale.",
+        "Demonstrate technical leadership by guiding a squad of 3 developers, conducting rigorous code reviews, and defining core Java Spring Boot framework architectures."
       ]
     },
     {
       "company": "ADP Inc.",
       "role": "Associate Application Developer",
       "location": "Parsippany, NJ",
-      "period": "Feb 2023 – Sep 2023",
+      "period": "Feb 2023 – Sep 2025",
       "type": "full-time",
-      "description": "Full-stack developer responsible for modernizing enterprise employee management systems, collaborating with cross-functional architecture teams to deliver scalable digital solutions.",
+      "description": "Full-stack developer modernizing enterprise employee management systems and collaborating with database architects on high-volume transactional infrastructure.",
       "achievements": [
-        "Engineered a comprehensive digital onboarding system that modernized employee lifecycle management, utilizing React.js for the user interface and Java Spring Boot for backend services — replacing legacy manual processes that previously required multi-day turnaround.",
-        "Collaborated with senior database architects to design and implement normalized Oracle database schemas, optimizing data retrieval performance for high-volume transactional workloads supporting thousands of concurrent enterprise users."
+        "Engineered a digital onboarding system to modernize employee management, utilizing React.js and Java Spring Boot to replace legacy manual processes.",
+        "Collaborated with database architects to design normalized schemas in Oracle, optimizing data retrieval speeds for high-volume user transactions."
       ]
     },
     {
@@ -79,8 +79,8 @@
       "type": "internship",
       "description": "Selected for a competitive internship program at ADP's corporate headquarters, contributing to enterprise tooling and platform modernization initiatives.",
       "achievements": [
-        "Developed automated Python data pipeline scripts that replaced a 3-day manual data fetching and insertion process with a solution completing the same operations in minutes — demonstrating immediate ROI and engineering impact.",
-        "Led the migration of a legacy Product Catalog system from manual spreadsheets to a modern web application built with React, Node.js, and GraphQL, implementing role-based access controls to enhance data security and operational efficiency."
+        "Developed Python scripts to automate data fetching and insertion, reducing a 3-day manual process to minutes.",
+        "Migrated a legacy Product Catalog from spreadsheets to a web application using React, Node.js, and GraphQL, enhancing access security."
       ]
     },
     {
@@ -91,9 +91,8 @@
       "type": "internship",
       "description": "Mobile development role at a fast-growing coding platform startup, driving user engagement through feature development and performance optimization.",
       "achievements": [
-        "Increased Daily Active Users (DAU) by 10% through the design and launch of new UI/UX features and systematic application performance optimization.",
-        "Implemented production monitoring via Firebase Crashlytics analysis, identifying and resolving critical crashes through targeted Java code refactoring.",
-        "Published a custom open-source Android Library enabling 3D touch capabilities and gesture-controlled actions — adopted within the production application."
+        "Boosted Daily Active Users (DAU) by 10% by launching new UI/UX features and optimizing app performance.",
+        "Published a custom open-source 3D-touch gesture library, adopted within the production application."
       ]
     },
     {
@@ -104,24 +103,42 @@
       "type": "internship",
       "description": "Early-career mobile development role contributing to enterprise financial management software.",
       "achievements": [
-        "Developed the frontend of a Finance Management System using Java and the Android SDK, collaborating with a fellow intern to deliver a production-ready mobile interface.",
-        "Improved library modularity through systematic code refactoring and implemented comprehensive unit and API testing frameworks, increasing code reliability and maintainability."
+        "Led a team to build the frontend of a Finance Management System using Java and Android.",
+        "Increased library modularity through code refactoring and performed comprehensive unit and API testing."
       ]
+    }
+  ],
+
+  "research": [
+    {
+      "title": "Autonomous Agentic AI Architectures for HVAC Dispatch Logistics",
+      "tagline": "Voice-native, multi-agent dispatch with sub-800ms latency",
+      "highlights": [
+        "Engineered a fully autonomous, voice-native dispatch agent utilizing Large Language Models (LLMs) orchestrated within a Multi-Agent System (MAS) framework.",
+        "Implemented advanced Retrieval-Augmented Generation (RAG) and function-calling capabilities to securely query CRMs and execute database scheduling mutations without human oversight.",
+        "Optimized Speech-to-Text (STT) and Text-to-Speech (TTS) pipelines to achieve sub-800ms latency while developing strict prompt-engineering guardrails to eliminate hallucination."
+      ],
+      "stack": ["LLMs", "MAS", "RAG", "Function Calling", "STT/TTS", "Prompt Guardrails"]
     },
     {
-      "company": "OCTFIS Techno LLP",
-      "role": "Web Developer",
-      "location": "Surat, India",
-      "period": "Jun 2019 – Jun 2020",
-      "type": "part-time",
-      "description": "Part-time full-stack web development role building and maintaining client-facing web applications while completing undergraduate studies.",
-      "achievements": [
-        "Engineered and maintained web applications using C#, HTML5, CSS3, and SQL, ensuring high availability and seamless user experiences across client projects.",
-        "Collaborated with senior engineers to refactor and optimize complex SQL queries, achieving a 20% improvement in database performance and reducing latency for end-users.",
-        "Gathered and analyzed client feedback to architect and implement high-impact features, driving measurable increases in user productivity and client retention.",
-        "Provided critical support for live production environments by identifying, debugging, and resolving front-end and back-end issues to maintain site stability.",
-        "Translated business requirements into technical specifications, delivering customized solutions that enhanced the overall customer journey and digital experience."
-      ]
+      "title": "JARVIS: Hierarchical Multi-Agent Orchestration Architecture",
+      "tagline": "Deterministic orchestration for autonomous software engineering workflows",
+      "highlights": [
+        "Researched and developed deterministic orchestration protocols for autonomous software engineering workflows.",
+        "Architected a finite-state 'Brain' dispatcher to route specialized AI agents (Architect, Developer, QA) through an adversarial specialist loop.",
+        "Mitigated cascade failure by establishing sequential clearance protocols and structured, typed artifact schemas — providing a replicable framework for complex task execution."
+      ],
+      "stack": ["Multi-Agent Systems", "Finite-State Orchestration", "Adversarial Loop", "Typed Artifact Schemas"]
+    },
+    {
+      "title": "Edge Computing & Vision-Based Autonomous Robot",
+      "tagline": "Granted Utility Patent No. 578389 — Government of India",
+      "highlights": [
+        "Engineered a dual-controller edge-computing architecture utilizing an Nvidia Jetson Nano for SpatialAI and an Arduino for mechanical kinematics.",
+        "Achieved autonomous unstructured navigation by implementing real-time object detection via an OAK-D stereo camera, YOLOv3, and continuous visual identification of ArUco markers.",
+        "Established the foundational expertise in real-time data processing and autonomous state management utilized in subsequent AI orchestration frameworks."
+      ],
+      "stack": ["Nvidia Jetson Nano", "Arduino", "OAK-D Stereo Camera", "YOLOv3", "ArUco Markers", "SpatialAI"]
     }
   ],
 
@@ -137,7 +154,8 @@
           "SQL",
           "C++",
           "C#",
-          "HTML/CSS"
+          "HTML/CSS",
+          "Arduino"
         ]
       },
       {
@@ -173,27 +191,38 @@
         ]
       },
       {
-        "category": "DevOps & Tools",
+        "category": "DevOps & Tooling",
         "items": [
           "Git",
           "GitHub",
           "Bitbucket",
           "CI/CD Pipelines",
+          "Splunk Log Analysis",
           "Agile/Scrum",
           "System Design"
+        ]
+      },
+      {
+        "category": "Edge AI & Robotics",
+        "items": [
+          "Nvidia Jetson Nano",
+          "OAK-D Stereo Camera",
+          "YOLOv3",
+          "ArUco Markers",
+          "Arduino Kinematics"
         ]
       }
     ],
     "advancedSpecializations": [
       {
-        "name": "Agentic AI Development",
-        "credential": "Johns Hopkins University — Certificate in Agentic AI (In Progress, Feb 2026)",
-        "description": "Specialized training in building autonomous AI agents with enterprise-grade reliability, including multi-agent orchestration, tool-use frameworks, and hallucination prevention for regulated industries."
+        "name": "Agentic AI Architecture",
+        "credential": "Johns Hopkins University — Certificate in Agentic AI (Expected May 2026)",
+        "description": "Specialized training in autonomous agent design, multi-agent orchestration, tool-use frameworks, and safety alignment for enterprise and critical-infrastructure deployment."
       },
       {
-        "name": "Large Language Model Engineering",
+        "name": "RAG, MAS & MCP Engineering",
         "credential": "Production deployment at ADP (Fortune 250)",
-        "description": "Hands-on expertise in fine-tuning and deploying LLMs for domain-specific enterprise applications, including RAG architectures, prompt engineering, and context-window optimization across 50+ codebases."
+        "description": "Hands-on expertise in Retrieval-Augmented Generation pipelines, Multi-Agent System orchestration, and Model Context Protocol (MCP) servers integrating AST code navigation and secure database execution across 50+ enterprise codebases."
       },
       {
         "name": "Enterprise AI Infrastructure",
@@ -204,6 +233,15 @@
   },
 
   "evidence": [
+    {
+      "type": "patent",
+      "title": "AN AUTONOMOUS ROBOT",
+      "issuer": "Government of India — Patent Office",
+      "patentNumber": "578389",
+      "applicationNumber": "202221019895",
+      "date": "Granted January 16, 2026",
+      "description": "Granted utility patent for an autonomous robotic system, demonstrating technical novelty and industrial utility in simplifying complex operational tasks. Recognized intellectual contribution to the field of autonomous technology."
+    },
     {
       "type": "degree",
       "title": "Master of Science in Computer Science",
@@ -227,31 +265,44 @@
       "title": "Certificate in Agentic AI",
       "issuer": "Johns Hopkins University",
       "location": "Remote",
-      "date": "In Progress (Started February 2026)",
+      "date": "Expected May 2026",
       "description": "Advanced professional certificate program focused on the design, development, and deployment of autonomous AI agents — covering multi-agent systems, tool-use frameworks, safety alignment, and enterprise deployment patterns."
     },
     {
-      "type": "patent",
-      "title": "AN AUTONOMOUS ROBOT",
-      "issuer": "Government of India — Patent Office",
-      "patentNumber": "578389",
-      "applicationNumber": "202221019895",
-      "date": "January 16, 2026",
-      "description": "Granted patent for an autonomous robotic system demonstrating original research and innovation in autonomous systems design. Published as an official press note by the patentee, reflecting recognized intellectual contribution to the field of autonomous technology."
+      "type": "certification",
+      "title": "Certificate in AI for Research & Analysis",
+      "issuer": "AI CERTs (via Coursera)",
+      "date": "March 2026",
+      "credentialId": "LGN0N71QBKKP",
+      "description": "Professional certification in applying AI methods to research workflows and analytical reasoning, with verifiable credential ID."
+    },
+    {
+      "type": "certification",
+      "title": "Google AI — Explore ML (Intermediate Track)",
+      "issuer": "Google",
+      "date": "Completed",
+      "description": "Intermediate-track machine learning curriculum from Google's Explore ML program."
+    },
+    {
+      "type": "award",
+      "title": "$15,000 Provost Master's Scholarship",
+      "issuer": "Stevens Institute of Technology",
+      "date": "Awarded for MS in Computer Science",
+      "description": "Awarded for exceptional academic merit and research potential within the Computer Science program at Stevens Institute of Technology."
     },
     {
       "type": "project_outcome",
-      "title": "GenAI Debugger Agent — 8x Efficiency Gain",
+      "title": "GenAI Debugger Agent — 8x MTTR Reduction",
       "issuer": "ADP Inc.",
-      "date": "2024 – Present",
-      "description": "Architected and deployed an AI debugging agent at ADP, reducing complex production issue resolution from full-day investigations to under 60 minutes. This system integrates with 50+ repositories, enterprise databases, and Splunk log infrastructure — directly reducing support tickets and accelerating developer productivity."
+      "date": "2025 – Present",
+      "description": "Architected and deployed an autonomous AI debugging agent at ADP, integrating an MCP server, AST code navigation, a static vector-embedded RAG knowledge base, and Splunk log analysis across 50+ enterprise repositories — cutting complex production issue resolution from full-day investigations to under 60 minutes."
     },
     {
       "type": "project_outcome",
       "title": "Enterprise Digital Onboarding Modernization",
       "issuer": "ADP Inc.",
-      "date": "2023",
-      "description": "Engineered the replacement of legacy manual employee onboarding processes with a modern digital platform serving ADP's enterprise clients, improving operational efficiency for employers across the platform."
+      "date": "2023 – 2025",
+      "description": "Engineered the replacement of legacy manual employee onboarding processes with a modern React.js and Java Spring Boot platform, backed by normalized Oracle schemas optimized for high-volume transactions."
     }
   ],
 

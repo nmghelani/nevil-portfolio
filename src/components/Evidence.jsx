@@ -3,6 +3,7 @@ import {
   GraduationCap,
   FileCheck,
   Lightbulb,
+  Trophy,
   ExternalLink,
 } from "lucide-react";
 
@@ -21,6 +22,11 @@ const typeConfig = {
     icon: FileCheck,
     color: "amber",
     label: "Granted Patent",
+  },
+  award: {
+    icon: Trophy,
+    color: "amber",
+    label: "Honor & Award",
   },
   project_outcome: {
     icon: Lightbulb,
@@ -132,6 +138,14 @@ export default function Evidence({ data }) {
                     </span>{" "}
                     · App No.{" "}
                     <span className="font-mono">{item.applicationNumber}</span>
+                  </p>
+                )}
+                {item.credentialId && (
+                  <p className="text-xs text-slate-500 mb-3">
+                    Credential ID:{" "}
+                    <span className="font-mono font-semibold">
+                      {item.credentialId}
+                    </span>
                   </p>
                 )}
 
