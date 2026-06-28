@@ -38,7 +38,7 @@
       {
         "icon": "GraduationCap",
         "title": "Research-Backed Expertise",
-        "description": "Master's in Computer Science (Stevens Institute of Technology), Certificate in Agentic AI (Johns Hopkins, expected May 2026), and a granted utility patent in autonomous robotics (Patent No. 578389)."
+        "description": "Master's in Computer Science (Stevens Institute of Technology), Certificate in Agentic AI (Johns Hopkins, expected June 2026), and a granted utility patent in autonomous robotics (Patent No. 578389)."
       }
     ]
   },
@@ -216,7 +216,7 @@
     "advancedSpecializations": [
       {
         "name": "Agentic AI Architecture",
-        "credential": "Johns Hopkins University — Certificate in Agentic AI (Expected May 2026)",
+        "credential": "Johns Hopkins University — Certificate in Agentic AI (Expected June 2026)",
         "description": "Specialized training in autonomous agent design, multi-agent orchestration, tool-use frameworks, and safety alignment for enterprise and critical-infrastructure deployment."
       },
       {
@@ -265,7 +265,7 @@
       "title": "Certificate in Agentic AI",
       "issuer": "Johns Hopkins University",
       "location": "Remote",
-      "date": "Expected May 2026",
+      "date": "Expected June 2026",
       "description": "Advanced professional certificate program focused on the design, development, and deployment of autonomous AI agents — covering multi-agent systems, tool-use frameworks, safety alignment, and enterprise deployment patterns."
     },
     {
