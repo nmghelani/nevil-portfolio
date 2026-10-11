@@ -1,9 +1,9 @@
 {
   "meta": {
     "name": "Nevil Ghelani",
-    "title": "AI Architect & Software Research Engineer",
+    "title": "Senior Application Developer · Agentic AI & Multi-Agent Systems",
     "location": "Hackensack, NJ",
-    "summary": "Autonomous Systems Architect with a proven track record of industrial innovation and technical leadership in high-stakes Generative AI implementations. Core expertise lies in architecting scalable, resilient software solutions for critical enterprise infrastructure — currently advancing Agentic AI for U.S. infrastructure resilience through robust, hallucination-free agent design. Holder of a utility patent in autonomous robotics and a Master's in Computer Science from Stevens Institute of Technology, with an active Certificate in Agentic AI at Johns Hopkins University.",
+    "summary": "Senior Application Developer at ADP specializing in agentic AI and multi-agent system orchestration. Built a Copilot-based AI debugging agent with access to 50+ enterprise repositories, created as a self-initiated project and now in use by developers on the team. Independently built a prototype SMS agent that books HVAC service appointments from missed calls (tested with a test business; not deployed) and JARVIS, a rule-bounded multi-agent system that builds small software applications. Research focus: measuring whether AI agents that answer calls for small HVAC businesses handle life-safety calls, such as gas leaks and carbon-monoxide symptoms, correctly. Co-inventor on a granted Indian patent for a vision-based robot.",
     "links": {
       "linkedin": "https://www.linkedin.com/in/nevil-ghelani/",
       "github": "https://github.com/nmghelani",
@@ -12,63 +12,53 @@
   },
 
   "proposedEndeavor": {
-    "headline": "Advancing Agentic AI for U.S. Infrastructure Resilience",
-    "subtitle": "Architecting hallucination-free, enterprise-grade autonomous systems that translate complex R&D into high-impact industrial assets.",
+    "headline": "Measuring How AI Agents Handle Life-Safety Calls",
+    "subtitle": "Planned research: open, reproducible tests of whether AI agents that answer calls for small HVAC businesses tell emergencies apart from routine jobs and give callers the right safety instructions.",
     "paragraphs": [
-      "Large-scale enterprise software — particularly systems supporting payroll, HR, and critical workforce infrastructure for millions of users — creates an enormous surface area of operational complexity. Diagnosing production issues across hundreds of repositories, database schemas, and distributed log systems remains one of the most time-consuming bottlenecks in modern engineering organizations. I believe Agentic AI, deployed with strict guardrails and verifiable retrieval, can fundamentally transform how engineering teams resolve these issues at scale.",
-      "At ADP, I work as an Application Developer, where I conceived and led the architecture of an autonomous Generative AI debugging agent as an independent, proactive engineering initiative — successfully securing executive-level (VP) sponsorship for broader product integration. The agent integrates a Model Context Protocol (MCP) server with AST-based code navigation and secure database execution tools across 50+ enterprise repositories, paired with a static vector-embedded RAG knowledge base and strict prompt guardrails to eliminate hallucination — cutting Mean Time to Resolution (MTTR) for complex issues by 8x.",
-      "I am pursuing a Certificate in Agentic AI from Johns Hopkins University to deepen my expertise in autonomous agent design, multi-agent orchestration, and safety alignment. My broader research agenda — spanning voice-native dispatch agents, hierarchical multi-agent orchestration (JARVIS), and a granted utility patent in vision-based autonomous robotics — is dedicated to building reliable, deterministic AI systems that engineering organizations and critical infrastructure operators can adopt with confidence."
+      "Small HVAC businesses are starting to use AI agents to answer calls, book jobs, and notify technicians. Most calls are routine, but some are not: a caller who smells gas, or who has carbon-monoxide symptoms, must be told to get to safety and call the gas utility or 911, as federal agencies, state fire officials, and gas utilities instruct. I have found no published, independent evaluation of how reliably these agents handle such calls.",
+      "My research plan starts with an open test set of realistic calls, each labeled against official safety guidance, and scoring software that reports how many life-safety calls an agent misses and how many routine calls it wrongly escalates. I plan to publish the test set, the software, and the results, and then to measure, with a collaborator experienced in field studies, how much of a small-shop technician's or owner's day front-desk tasks take.",
+      "The work builds on what I already do: building AI agents and the software that checks what they do. That includes an AI debugging agent at ADP, a prototype SMS booking agent for HVAC businesses, and JARVIS, a personal research project in which rules written in ordinary code bound what the AI agents may do."
     ],
     "impactPoints": [
       {
-        "icon": "Building2",
-        "title": "Enterprise-Scale Impact",
-        "description": "Architecting AI-powered developer tooling and scalable Java Spring Boot backend services at ADP, integrated across 50+ enterprise repositories and database schemas."
-      },
-      {
         "icon": "ShieldCheck",
-        "title": "AI Safety & Reliability",
-        "description": "Designing AI agents with strict prompt-engineering guardrails, RAG retrieval, and deterministic orchestration protocols to eliminate hallucination in regulated, high-stakes environments."
+        "title": "Safety Guidance as the Answer Key",
+        "description": "Each test call is labeled with the response that official guidance prescribes, such as leaving the building and calling the gas utility or 911 for a gas odor."
       },
       {
         "icon": "Zap",
-        "title": "Measurable Efficiency Gains",
-        "description": "Achieved an 8x reduction in production debugging time (cutting 1-day issues to under 60 minutes) through an autonomous GenAI Debugger Agent built on MCP, RAG, and Splunk integration."
+        "title": "Measured, Not Assumed",
+        "description": "Scoring software reports missed life-safety calls, unnecessary escalations, and whether each booking is correct, for any agent tested."
+      },
+      {
+        "icon": "Building2",
+        "title": "Openly Published",
+        "description": "The test set, scoring method, and results are planned to be public, so contractors, software makers, and standards bodies can use and check them."
       },
       {
         "icon": "GraduationCap",
-        "title": "Research-Backed Expertise",
-        "description": "Master's in Computer Science (Stevens Institute of Technology), Certificate in Agentic AI (Johns Hopkins, expected June 2026), and a granted utility patent in autonomous robotics (Patent No. 578389)."
+        "title": "Grounded in Practice",
+        "description": "M.S. in Computer Science (Stevens Institute of Technology), Certificate Program in Agentic AI (Johns Hopkins University, 2026), and hands-on agent building at ADP and in independent prototypes."
       }
     ]
   },
 
   "experience": [
     {
-      "company": "ADP Inc.",
-      "role": "Application Developer",
-      "location": "Parsippany, NJ",
-      "period": "Oct 2025 – Present",
+      "company": "ADP Technology Services, Inc.",
+      "role": "Senior Application Developer",
+      "location": "New Jersey",
+      "period": "Feb 2023 – Present",
       "type": "full-time",
-      "description": "Application Developer responsible for full-stack feature delivery, autonomous AI tooling, and technical leadership of a 3-developer squad on enterprise HCM platforms.",
+      "description": "Senior Application Developer (Sep 2026 – Present) · Application Developer (Oct 2025 – Aug 2026) · Associate Application Developer (Feb 2023 – Sep 2025).",
       "achievements": [
-        "Conceived and led the architecture of an autonomous Generative AI debugging agent as an independent, proactive engineering initiative; successfully secured executive-level (VP) sponsorship for broader product integration.",
-        "Implemented a Model Context Protocol (MCP) server, integrating AST code navigation and secure database execution tools across 50+ enterprise repositories.",
-        "Deployed a static vector-embedded knowledge base (RAG pipeline) with strict prompt guardrails, reducing Mean Time to Resolution (MTTR) by 8x — cutting complex 1-day issues to under 60 minutes.",
-        "Engineered the agent to generate targeted Splunk queries and analyze distributed log outputs, enabling automated root-cause analysis at scale.",
-        "Demonstrate technical leadership by guiding a squad of 3 developers, conducting rigorous code reviews, and defining core Java Spring Boot framework architectures."
-      ]
-    },
-    {
-      "company": "ADP Inc.",
-      "role": "Associate Application Developer",
-      "location": "Parsippany, NJ",
-      "period": "Feb 2023 – Sep 2025",
-      "type": "full-time",
-      "description": "Full-stack developer modernizing enterprise employee management systems and collaborating with database architects on high-volume transactional infrastructure.",
-      "achievements": [
-        "Engineered a digital onboarding system to modernize employee management, utilizing React.js and Java Spring Boot to replace legacy manual processes.",
-        "Collaborated with database architects to design normalized schemas in Oracle, optimizing data retrieval speeds for high-volume user transactions."
+        "Enhance and extend the established client onboarding tool within ADP Workforce Now, progressing from building onboarding features to leading feature delivery and a squad of three developers.",
+        "Conceived and built an AI debugging agent on Copilot as a self-initiated project outside assigned duties, combining a custom MCP server with a system prompt that defines the agent's persona and diagnostic workflow; now in active use by developers on the team.",
+        "Built a Model Context Protocol (MCP) server that integrates the APIs of an existing internal code-browsing tool and secure database-query tools, giving the agent navigation across 50+ enterprise repositories.",
+        "Deployed a static vector-embedded knowledge base (RAG pipeline) with strict prompt guardrails, giving the agent context across the entire product so developers can diagnose cross-service failures without escalating to dependent teams; added a shared learnings store (SQLite) that records significant past findings and is searched together with the vector knowledge base, so every user benefits from earlier investigations.",
+        "Built onboarding features using React.js and Java Spring Boot to replace legacy manual steps, which are now being phased out for new clients.",
+        "Collaborated with database architects to design normalized schemas in Oracle, optimizing data retrieval speeds for high-volume user transactions.",
+        "Conduct code reviews and define core framework architecture for the team."
       ]
     },
     {
@@ -77,22 +67,21 @@
       "location": "Roseland, NJ",
       "period": "Jun 2022 – Aug 2022",
       "type": "internship",
-      "description": "Selected for a competitive internship program at ADP's corporate headquarters, contributing to enterprise tooling and platform modernization initiatives.",
+      "description": "Summer internship.",
       "achievements": [
-        "Developed Python scripts to automate data fetching and insertion, reducing a 3-day manual process to minutes.",
+        "Developed Python scripts to automate a previously manual data fetching and insertion process.",
         "Migrated a legacy Product Catalog from spreadsheets to a web application using React, Node.js, and GraphQL, enhancing access security."
       ]
     },
     {
-      "company": "Dcoder Inc.",
+      "company": "Dcoder (Codemob Tech Labs Pvt. Ltd.)",
       "role": "Android Developer Intern",
       "location": "Bangalore, India",
       "period": "Dec 2020 – May 2021",
       "type": "internship",
-      "description": "Mobile development role at a fast-growing coding platform startup, driving user engagement through feature development and performance optimization.",
+      "description": "Android development for the Dcoder app.",
       "achievements": [
-        "Boosted Daily Active Users (DAU) by 10% by launching new UI/UX features and optimizing app performance.",
-        "Published a custom open-source 3D-touch gesture library, adopted within the production application."
+        "Launched new UI/UX features and optimized app performance for the Dcoder Android app."
       ]
     },
     {
@@ -101,102 +90,99 @@
       "location": "Surat, India",
       "period": "Jul 2020 – Dec 2020",
       "type": "internship",
-      "description": "Early-career mobile development role contributing to enterprise financial management software.",
+      "description": "Android development for a finance management system.",
       "achievements": [
-        "Led a team to build the frontend of a Finance Management System using Java and Android.",
-        "Increased library modularity through code refactoring and performed comprehensive unit and API testing."
+        "Built the frontend of a finance management system using Java and Android, and guided a fellow intern on Android development.",
+        "Increased library modularity through code refactoring and performed comprehensive unit/API testing."
+      ]
+    },
+    {
+      "company": "OCTFIS TECHNO LLP",
+      "role": "Web Developer (Part-time)",
+      "location": "Surat, India",
+      "period": "Jun 2019 – Jun 2020",
+      "type": "part-time",
+      "description": "Part-time web development for client sites.",
+      "achievements": [
+        "Built and maintained client web applications using C#, HTML5, CSS3 and SQL.",
+        "Refactored and optimized SQL queries with senior engineers.",
+        "Gathered client feedback and translated business requirements into technical specifications and new features.",
+        "Supported live production sites by diagnosing and resolving front-end and back-end issues."
       ]
     }
   ],
 
   "research": [
     {
-      "title": "Autonomous Agentic AI Architectures for HVAC Dispatch Logistics",
-      "tagline": "Voice-native, multi-agent dispatch with sub-800ms latency",
+      "title": "Agentic AI for HVAC Missed-Call Recovery and Scheduling (Prototype)",
+      "tagline": "LangGraph SMS agent · tested with a test business; not deployed",
       "highlights": [
-        "Engineered a fully autonomous, voice-native dispatch agent utilizing Large Language Models (LLMs) orchestrated within a Multi-Agent System (MAS) framework.",
-        "Implemented advanced Retrieval-Augmented Generation (RAG) and function-calling capabilities to securely query CRMs and execute database scheduling mutations without human oversight.",
-        "Optimized Speech-to-Text (STT) and Text-to-Speech (TTS) pipelines to achieve sub-800ms latency while developing strict prompt-engineering guardrails to eliminate hallucination."
+        "Built an LLM-based SMS agent for HVAC businesses: when a call goes unanswered, the caller hears an automated message and then receives a text from the agent, which converses with the customer to book a service appointment.",
+        "Implemented the agent as a LangGraph state machine with specialized nodes for booking, rescheduling, confirmation and escalation; it reads a configured business's hours, location and truck count and checks its Google Calendar to book jobs automatically, without staff involvement."
       ],
-      "stack": ["LLMs", "MAS", "RAG", "Function Calling", "STT/TTS", "Prompt Guardrails"]
+      "stack": ["LLMs", "LangGraph", "SMS", "Google Calendar"]
     },
     {
-      "title": "JARVIS: Hierarchical Multi-Agent Orchestration Architecture",
-      "tagline": "Deterministic orchestration for autonomous software engineering workflows",
+      "title": "JARVIS: Rule-Bounded Multi-Agent Orchestration for Software Engineering",
+      "tagline": "Personal research project · one operator, not yet benchmarked",
       "highlights": [
-        "Researched and developed deterministic orchestration protocols for autonomous software engineering workflows.",
-        "Architected a finite-state 'Brain' dispatcher to route specialized AI agents (Architect, Developer, QA) through an adversarial specialist loop.",
-        "Mitigated cascade failure by establishing sequential clearance protocols and structured, typed artifact schemas — providing a replicable framework for complex task execution."
+        "Built a system in which AI agents plan, design, code and check small Python applications from a plain-English brief, then run them on a schedule inside a sandbox.",
+        "Rules written in ordinary code, not the AI, decide which next step is allowed; a separate verifier re-runs the reported commands and checks each requirement before any model judges the result.",
+        "Serves one operator on a single machine; two apps it built are in regular use; not yet benchmarked."
       ],
-      "stack": ["Multi-Agent Systems", "Finite-State Orchestration", "Adversarial Loop", "Typed Artifact Schemas"]
+      "stack": ["Multi-Agent Systems", "Rule-Bounded Orchestration", "Independent Verifier", "Sandboxed Runs"]
     },
     {
-      "title": "Edge Computing & Vision-Based Autonomous Robot",
-      "tagline": "Granted Utility Patent No. 578389 — Government of India",
+      "title": "Edge-Computing, Vision-Based Robot",
+      "tagline": "“An Autonomous Robot,” Indian Patent No. 578389 · co-invented with three fellow students and faculty advisor",
       "highlights": [
-        "Engineered a dual-controller edge-computing architecture utilizing an Nvidia Jetson Nano for SpatialAI and an Arduino for mechanical kinematics.",
-        "Achieved autonomous unstructured navigation by implementing real-time object detection via an OAK-D stereo camera, YOLOv3, and continuous visual identification of ArUco markers.",
-        "Established the foundational expertise in real-time data processing and autonomous state management utilized in subsequent AI orchestration frameworks."
+        "Integrated the OAK-D stereo camera for real-time object detection on a dual-controller edge-computing robot (Nvidia Jetson Nano for spatial AI, Arduino for mechanical kinematics).",
+        "Built the robot's mobile app integration; the team's robot navigated semi-autonomously by reading ArUco markers placed along its route, with YOLOv3 object detection.",
+        "Gained foundational experience in real-time data processing on edge hardware."
       ],
-      "stack": ["Nvidia Jetson Nano", "Arduino", "OAK-D Stereo Camera", "YOLOv3", "ArUco Markers", "SpatialAI"]
+      "stack": ["Nvidia Jetson Nano", "Arduino", "OAK-D Stereo Camera", "YOLOv3", "ArUco Markers"]
     }
   ],
 
   "skills": {
     "technicalCore": [
       {
+        "category": "Agentic AI",
+        "items": [
+          "LLMs",
+          "Agentic AI",
+          "Retrieval-Augmented Generation (RAG)",
+          "Multi-Agent System Orchestration",
+          "Model Context Protocol (MCP)",
+          "LangGraph"
+        ]
+      },
+      {
         "category": "Programming Languages",
-        "items": [
-          "Java",
-          "Python",
-          "TypeScript",
-          "JavaScript",
-          "SQL",
-          "C++",
-          "C#",
-          "HTML/CSS",
-          "Arduino"
-        ]
+        "items": ["Java", "Python", "TypeScript", "JavaScript", "SQL", "C++", "C#"]
       },
       {
-        "category": "Frontend Engineering",
+        "category": "Backend & Data",
         "items": [
-          "React.js",
-          "Next.js",
-          "Android SDK",
-          "Responsive UI/UX",
-          "Component Architecture"
-        ]
-      },
-      {
-        "category": "Backend & Cloud",
-        "items": [
+          "Java Spring Boot",
           "Node.js",
-          "Spring Boot",
           "GraphQL",
-          "AWS",
-          "Docker",
-          "RESTful APIs",
-          "Microservices"
-        ]
-      },
-      {
-        "category": "Databases",
-        "items": [
           "Oracle",
           "PostgreSQL",
-          "MongoDB",
-          "Database Schema Design",
-          "Query Optimization"
+          "MongoDB"
         ]
       },
       {
-        "category": "DevOps & Tooling",
+        "category": "Frontend & Mobile",
+        "items": ["React.js", "Next.js", "Android"]
+      },
+      {
+        "category": "Cloud & Tooling",
         "items": [
-          "Git",
-          "GitHub",
-          "Bitbucket",
-          "CI/CD Pipelines",
+          "AWS",
+          "Docker",
+          "CI/CD",
+          "Git / GitHub / Bitbucket",
           "Splunk Log Analysis",
           "Agile/Scrum",
           "System Design"
@@ -209,25 +195,25 @@
           "OAK-D Stereo Camera",
           "YOLOv3",
           "ArUco Markers",
-          "Arduino Kinematics"
+          "Arduino"
         ]
       }
     ],
     "advancedSpecializations": [
       {
-        "name": "Agentic AI Architecture",
-        "credential": "Johns Hopkins University — Certificate in Agentic AI (Expected June 2026)",
-        "description": "Specialized training in autonomous agent design, multi-agent orchestration, tool-use frameworks, and safety alignment for enterprise and critical-infrastructure deployment."
+        "name": "Agentic AI",
+        "credential": "Johns Hopkins University — Certificate Program in Agentic AI (Jul 2026)",
+        "description": "Non-credit certificate program (110 learning hours) from the Whiting School of Engineering's Executive and Professional Education."
       },
       {
-        "name": "RAG, MAS & MCP Engineering",
-        "credential": "Production deployment at ADP (Fortune 250)",
-        "description": "Hands-on expertise in Retrieval-Augmented Generation pipelines, Multi-Agent System orchestration, and Model Context Protocol (MCP) servers integrating AST code navigation and secure database execution across 50+ enterprise codebases."
+        "name": "RAG & MCP Engineering",
+        "credential": "AI debugging agent at ADP — in use by developers on the team",
+        "description": "Custom MCP server integrating an internal code-browsing tool and secure database-query tools across 50+ repositories, a vector-embedded knowledge base with prompt guardrails, and a shared learnings store."
       },
       {
-        "name": "Enterprise AI Infrastructure",
-        "credential": "Deployed at scale — ADP (Fortune 250)",
-        "description": "Design and deployment of AI-powered debugging and automation systems integrated with Splunk, distributed logging, and production monitoring across large-scale enterprise HCM infrastructure."
+        "name": "Rule-Bounded Agent Orchestration",
+        "credential": "JARVIS — personal research project",
+        "description": "Rules written in ordinary code decide which next step is allowed; a separate verifier re-runs reported commands and checks each requirement before any model judges the result."
       }
     ]
   },
@@ -235,79 +221,87 @@
   "evidence": [
     {
       "type": "patent",
-      "title": "AN AUTONOMOUS ROBOT",
+      "title": "“An Autonomous Robot”",
       "issuer": "Government of India — Patent Office",
       "patentNumber": "578389",
       "applicationNumber": "202221019895",
       "date": "Granted January 16, 2026",
-      "description": "Granted utility patent for an autonomous robotic system, demonstrating technical novelty and industrial utility in simplifying complex operational tasks. Recognized intellectual contribution to the field of autonomous technology."
+      "description": "Co-inventor with A. Chovatiya, K. Lathia, V. Gadhiya and Prof. D. Pandya. Contributed the robot's mobile app integration and the OAK-D stereo camera integration for real-time object detection."
     },
     {
       "type": "degree",
       "title": "Master of Science in Computer Science",
       "issuer": "Stevens Institute of Technology",
       "location": "Hoboken, NJ",
-      "date": "December 2022",
-      "gpa": "3.6",
-      "description": "Advanced graduate study in computer science at a top-tier STEM institution, providing the theoretical foundation for current work in artificial intelligence, distributed systems, and software architecture."
+      "date": "January 2023",
+      "gpa": "GPA 3.63 / 4.0",
+      "description": "Graduate degree in computer science."
     },
     {
       "type": "degree",
-      "title": "Bachelor of Engineering in Computer Engineering",
-      "issuer": "Gujarat Technological University",
+      "title": "Bachelor of Engineering, Computer Engineering",
+      "issuer": "Sarvajanik College of Engineering and Technology (Gujarat Technological University)",
+      "location": "Surat, India",
+      "date": "Completed July 2021; conferred January 2022",
+      "gpa": "CGPA 8.86 / 10 · First Class with Distinction",
+      "description": "Undergraduate degree in computer engineering."
+    },
+    {
+      "type": "degree",
+      "title": "Diploma in Advance Android",
+      "issuer": "Red & White Multimedia Education",
       "location": "Gujarat, India",
-      "date": "July 2021",
-      "gpa": "3.8",
-      "description": "Undergraduate engineering degree with distinction, establishing core competencies in computer science fundamentals, algorithms, and systems engineering."
+      "date": "July 2018",
+      "gpa": "Grade A+",
+      "description": "Diploma in Android application development."
     },
     {
       "type": "certification",
-      "title": "Certificate in Agentic AI",
-      "issuer": "Johns Hopkins University",
-      "location": "Remote",
-      "date": "Expected June 2026",
-      "description": "Advanced professional certificate program focused on the design, development, and deployment of autonomous AI agents — covering multi-agent systems, tool-use frameworks, safety alignment, and enterprise deployment patterns."
+      "title": "Certificate Program in Agentic AI",
+      "issuer": "Johns Hopkins University, Whiting School of Engineering",
+      "date": "July 2026",
+      "description": "Executive and Professional Education; non-credit, 110 learning hours."
     },
     {
       "type": "certification",
-      "title": "Certificate in AI for Research & Analysis",
+      "title": "AI for Research & Analysis",
       "issuer": "AI CERTs (via Coursera)",
       "date": "March 2026",
       "credentialId": "LGN0N71QBKKP",
-      "description": "Professional certification in applying AI methods to research workflows and analytical reasoning, with verifiable credential ID."
+      "description": "Online course."
     },
     {
       "type": "certification",
-      "title": "Google AI — Explore ML (Intermediate Track)",
+      "title": "Google AI Explore ML (Intermediate Track)",
       "issuer": "Google",
-      "date": "Completed",
-      "description": "Intermediate-track machine learning curriculum from Google's Explore ML program."
+      "date": "Attendance certificate",
+      "description": "Intermediate track of Google's Explore ML program."
     },
     {
       "type": "award",
-      "title": "$15,000 Provost Master's Scholarship",
+      "title": "$15,000 Master's Scholarship",
       "issuer": "Stevens Institute of Technology",
-      "date": "Awarded for MS in Computer Science",
-      "description": "Awarded for exceptional academic merit and research potential within the Computer Science program at Stevens Institute of Technology."
+      "date": "Fall 2021",
+      "description": "Awarded at admission to the M.S. in Computer Science program."
     },
     {
       "type": "project_outcome",
-      "title": "GenAI Debugger Agent — 8x MTTR Reduction",
-      "issuer": "ADP Inc.",
-      "date": "2025 – Present",
-      "description": "Architected and deployed an autonomous AI debugging agent at ADP, integrating an MCP server, AST code navigation, a static vector-embedded RAG knowledge base, and Splunk log analysis across 50+ enterprise repositories — cutting complex production issue resolution from full-day investigations to under 60 minutes."
+      "title": "AI Debugging Agent",
+      "issuer": "ADP Technology Services, Inc.",
+      "date": "Self-initiated project",
+      "description": "Built on Copilot with a custom MCP server, a vector-embedded knowledge base, and a shared learnings store; gives developers context across 50+ enterprise repositories so they can diagnose cross-service failures without escalating to dependent teams. Now in active use by developers on the team."
     },
     {
       "type": "project_outcome",
-      "title": "Enterprise Digital Onboarding Modernization",
-      "issuer": "ADP Inc.",
-      "date": "2023 – 2025",
-      "description": "Engineered the replacement of legacy manual employee onboarding processes with a modern React.js and Java Spring Boot platform, backed by normalized Oracle schemas optimized for high-volume transactions."
+      "title": "Client Onboarding Features",
+      "issuer": "ADP Technology Services, Inc.",
+      "date": "2023 – Present",
+      "description": "Built onboarding features in React.js and Java Spring Boot for the established client onboarding tool in ADP Workforce Now, replacing legacy manual steps that are now being phased out for new clients."
     }
   ],
 
   "footer": {
-    "tagline": "Building the future of enterprise AI — one reliable agent at a time.",
+    "tagline": "Building AI agents whose behavior is measured, not assumed.",
     "copyright": "Nevil Ghelani"
   }
 }

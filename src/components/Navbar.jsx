@@ -3,11 +3,11 @@ import { Menu, X } from "lucide-react";
 
 const navLinks = [
   { label: "About", href: "#hero" },
-  { label: "Vision", href: "#endeavor" },
+  { label: "Focus", href: "#endeavor" },
   { label: "Experience", href: "#experience" },
   { label: "Research", href: "#research" },
   { label: "Skills", href: "#skills" },
-  { label: "Evidence", href: "#evidence" },
+  { label: "Credentials", href: "#evidence" },
 ];
 
 export default function Navbar() {

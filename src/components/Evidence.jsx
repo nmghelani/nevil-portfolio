@@ -75,15 +75,15 @@ export default function Evidence({ data }) {
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-slate-100 border border-slate-200 mb-6">
             <Award size={14} className="text-slate-600" />
             <span className="text-sm font-medium text-slate-600">
-              Evidence & Recognition
+              Credentials
             </span>
           </div>
           <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
             Credentials & Outcomes
           </h2>
           <p className="text-lg text-slate-500 max-w-2xl mx-auto">
-            Academic qualifications, intellectual property, and measurable
-            project outcomes supporting exceptional ability.
+            Academic qualifications, intellectual property, certifications, and
+            project outcomes.
           </p>
         </div>
 
@@ -127,7 +127,7 @@ export default function Evidence({ data }) {
                 {/* Extra Info */}
                 {item.gpa && (
                   <p className="text-xs font-semibold text-slate-500 mb-3">
-                    GPA: {item.gpa} / 4.0
+                    {item.gpa}
                   </p>
                 )}
                 {item.patentNumber && (

@@ -24,7 +24,7 @@ export default function ProposedEndeavor({ data }) {
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-blue-50 border border-blue-100 mb-6">
             <Sparkles size={14} className="text-blue-600" />
             <span className="text-sm font-medium text-blue-700">
-              Vision & Focus
+              Research Focus
             </span>
           </div>
           <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">

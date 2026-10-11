@@ -16,8 +16,8 @@ export default function Research({ data }) {
             Research & Projects
           </h2>
           <p className="text-lg text-slate-500 max-w-2xl mx-auto">
-            Self-directed research in autonomous systems, multi-agent
-            orchestration, and edge AI — including a granted utility patent.
+            Independent prototypes in agentic AI and multi-agent orchestration,
+            and a patented vision-based robot.
           </p>
         </div>
 
