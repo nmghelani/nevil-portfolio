@@ -2,6 +2,12 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "redirects": [
     {
+      "source": "/",
+      "has": [{ "type": "host", "value": "nevil-ghelani\\.vercel\\.app" }],
+      "destination": "https://portfolio.lanhub.top/",
+      "permanent": true
+    },
+    {
       "source": "/:path*",
       "has": [{ "type": "host", "value": "nevil-ghelani\\.vercel\\.app" }],
       "destination": "https://portfolio.lanhub.top/:path*",
